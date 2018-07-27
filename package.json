@@ -1,0 +1,48 @@
+{
+  "name": "react-start",
+  "version": "0.0.1",
+  "description": "My starting react template",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wmaileq/react-start.git"
+  },
+  "author": "Vladislav Kirilenok",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wmaileq/react-start/issues"
+  },
+  "homepage": "https://github.com/Wmaileq/react-start#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "history": "^4.7.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.4.0-alpha.1",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "redux": "^4.0.0",
+    "webpack": "^4.16.3"
+  },
+  "browserslist": [
+    "last 3 versions",
+    "not IE < 11",
+    "not < 0.05%"
+  ],
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-3"
+    ]
+  }
+}
